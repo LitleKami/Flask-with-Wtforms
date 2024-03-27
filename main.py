@@ -16,12 +16,8 @@ comp_email = 'admin@email.com'
 comp_password = '12345678'
 
 # Create app
-def create_app():
-  app = Flask(__name__)
-  Bootstrap(app)
-  return app
-
-app = create_app()
+app = Flask(__name__)
+Bootstrap(app)
 
 # Validation
 app.config['SECRET_KEY'] = 'Litle_kami75'
