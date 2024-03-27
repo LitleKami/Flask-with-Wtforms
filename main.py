@@ -15,9 +15,9 @@ class MyForm(FlaskForm):
 comp_email = 'admin@email.com'
 comp_password = '12345678'
 
-# Create app
 app = Flask(__name__)
 Bootstrap(app)
+
 
 # Validation
 app.config['SECRET_KEY'] = 'Litle_kami75'
